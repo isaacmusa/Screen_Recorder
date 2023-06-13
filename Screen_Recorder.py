@@ -13,7 +13,7 @@ codec = cv2.VideoWriter_fourcc(*"XVID")
 filename = "Recording.avi"
 
 #Specify frames rate
-fps = 60.0
+fps = 20.0
 
 #Creating a VideoWriter object
 out = cv2.VideoWriter(filename, codec, fps, resolution)
